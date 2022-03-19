@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background: url(photos/banner-bg.svg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+h2,h1,li{
+    font-family: 'Poppins', sans-serif;
+}
+.btn-download,.btn-getStarted,p{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar-section*/
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto 100px;
+    padding-top: 10px;
+}
+
+nav .nav-bar{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin-left: auto;
+}
+
+nav .nav-bar li{
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.btn-download{
+    width: 140px;
+    height: 40px;
+    background:linear-gradient(to right,#fe8364,#fe6e99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.btn-download:hover{
+    background:linear-gradient(to left,#fe8364,#fe6e99);
+}
+
+/* main-section*/
+
+main{
+    text-align: center;
+    color: white;
+}
+
+main a, h2, h1{
+    text-transform: capitalize;
+}
+
+main h2{
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+main h1{
+    font-size: 34px;
+}
+
+main h1>span{
+    text-transform: lowercase;
+}
+
+main p{
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+main .btn-getStarted{
+    background: linear-gradient(to right,#31c6c1,#119bd1);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+
+main .btn-getStarted:hover{
+    background: linear-gradient(to left,#31c6c1,#119bd1);
+}
+
+main img{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
