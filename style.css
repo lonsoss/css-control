@@ -25,6 +25,10 @@ h2,h1,li{
 
 /* navbar-section*/
 
+.logo:hover{
+    cursor: pointer;
+}
+
 nav{
     display: flex;
     align-items: center;
